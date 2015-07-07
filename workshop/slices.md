@@ -1,4 +1,4 @@
-## Slices
+# Slices
 
 - Core data structure
 - Slice is a reference type

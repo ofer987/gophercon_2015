@@ -1,4 +1,5 @@
 # Variables
+
 - Declaring a variable initializing it.
 - Default value is the 'zero' value
 - Reference Types

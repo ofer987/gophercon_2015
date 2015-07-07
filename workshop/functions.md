@@ -1,4 +1,4 @@
-## Functions
+# Functions
 
 - Methods are functions where the first parameter is the receiver
 - Functions
