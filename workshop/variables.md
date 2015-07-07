@@ -1,24 +1,4 @@
-### Speaker
-- Bill Kennedy
-- Ardan Labs
-
-### Location
-- Colorado Convention Centre, Denver, Colorado
-
-### Fun Statistics
-- ~56 people
-- 2 women
-- 51 Macbooks
-- 5 Thinkpads
-
-### Focus on
-- Type
-- Behaviour
-
-### Best About Go
-- Constants
-
-### Variables
+# Variables
 - Declaring a variable initializing it.
 - Default value is the 'zero' value
 - Reference Types
@@ -52,9 +32,9 @@
     - *& operator*:
       - Where is the box?
       - What is in the box?
-
-### Slices
-
-### Error handling
-
-### Concurrency and Channels
+    - Do not use Println, it is a deprecated function for backwards-compatibility with version 1.0
+  Implementation
+  - go build -gcflags -m
+    - To show internals of how program executes
+  - Implementation changes with version changes
+  - Do not code against implmentation: code against specification
