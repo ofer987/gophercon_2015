@@ -15,6 +15,9 @@
   - Pointer receiver
 - Functions defined with a pointer receiver can be used with
   - Pointer receiver
+- Anonymous functions
+  - `func() { ... }`
+  - Closures
 
 ### Types
 
