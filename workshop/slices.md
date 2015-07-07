@@ -1,5 +1,6 @@
 ## Slices
 
+- Core data structure
 - Slice is a reference type
 - Only use cache for speed
   - Use slices
@@ -34,3 +35,11 @@
     - Code smell if third index (i.e., capacity) not the same as second index (i.e., `end_index`)
       - Otherwise the target slice would modify the source slice when target slice grows
 - Deep copy for copying source slice to target slice
+  - Use `copy` function
+
+### Strings
+
+- UTF-8 encoded
+- `strings` are really `slices`
+- `rune` is an alias for `integer` can be 1 - 4 bytes long
+- Funny quote: 'An array in Go is just a slice waiting to happen'
