@@ -42,4 +42,7 @@
 - Values implement the interface
   - As opposed to types implementing interfaces in other languages
 - Implement the interface on a **pointer receiver**
-- iTables allow polymorphic behaviour
+- iTables allow polymorphic behaviour by mapping a function to the interface type
+- Composition
+  - Outer types are promoted to implement the interface of the their inner types
+  - The implementation of the outer types override the implementation of the inner types

@@ -36,6 +36,10 @@
       - Otherwise the target slice would modify the source slice when target slice grows
 - Deep copy for copying source slice to target slice
   - Use `copy` function
+- Empty struct creates the **zero** allocation (no allocation of memory) value
+  - E.g., `type english struct{}`
+- `new()` will create a new value and set the lvalue to it
+  - Equivalent to `&type_name{}`
 
 ### Strings
 
