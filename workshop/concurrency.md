@@ -38,12 +38,14 @@
     - Cannot send
     - Can receive
   - Non-closed
-- defer execute after the return statement
+- `defer` execute after the return statement
   - Guaranteed to be called, even if the function panics
   - Can stop a panic from bubbling up the stack with `recover`
   - Do not hide panic attacks, so log them
     - use the logger from standard library
   - Should not expect to receive panics so do not code against them
+- Goroutines share closures
+  - Instead copy-by-value
 
 #### Unbuffered Channels
 
@@ -56,4 +58,6 @@
 #### Buffered Channels
 
 - No blocking unless capacity is full
+- Sender should not block on the buffered channel
+  - Then rethink architecture
 

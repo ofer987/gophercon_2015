@@ -1,8 +1,8 @@
 # Introduction
 
 ### Speaker
-- Bill Kennedy
-- Ardan Labs
+- William Kennedy
+- [Ardan Labs](https://www.ardanlabs.com/)
 
 ### Location
 - Colorado Convention Centre, Denver, Colorado
