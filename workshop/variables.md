@@ -9,33 +9,33 @@
 - E.g.,
   - String
     - It is immutable
-  - What is Type to the compiler
-    - The length of memory
-    - Representation of the memory
-  - Cannot do casting
-  - Struct Literals
-  - Use var to declare variables
-    - It initializes to the zero value
-  - Compiler introduces padding between variables for alignment
-  - *Mechanical sympathy* for free if follow convention and idioms
-    - Then you can use a profiler for additional performance improvement
-    - Copying fast data values is fast with today's hardware
-    - Pass variables by
-      - Value
-      - Pointer
-        - Pass the value of the address to a pointer variable
-        - Pointer variables store an address
-          - Declared with a *Star*
-  - Stack and Heap
-    - Goroutines are allocated 4k of memory
-      - Reading a stack *goes down*
-    - Heap uses *Mark and Sweep* algorithm
-    - *& operator*:
-      - Where is the box?
-      - What is in the box?
-    - Do not use Println, it is a deprecated function for backwards-compatibility with version 1.0
-  Implementation
-  - go build -gcflags -m
-    - To show internals of how program executes
-  - Implementation changes with version changes
-  - Do not code against implmentation: code against specification
+- What is Type to the compiler
+  - The length of memory
+  - Representation of the memory
+- Cannot do casting
+- Struct Literals
+- Use var to declare variables
+  - It initializes to the zero value
+- Compiler introduces padding between variables for alignment
+- *Mechanical sympathy* for free if follow convention and idioms
+  - Then you can use a profiler for additional performance improvement
+  - Copying fast data values is fast with today's hardware
+  - Pass variables by
+    - Value
+    - Pointer
+      - Pass the value of the address to a pointer variable
+      - Pointer variables store an address
+        - Declared with a *Star*
+- Stack and Heap
+  - Goroutines are allocated 4k of memory
+    - Reading a stack *goes down*
+  - Heap uses *Mark and Sweep* algorithm
+  - *& operator*:
+    - Where is the box?
+    - What is in the box?
+  - Do not use Println, it is a deprecated function for backwards-compatibility with version 1.0
+Implementation
+- go build -gcflags -m
+  - To show internals of how program executes
+- Implementation changes with version changes
+- Do not code against implmentation: code against specification
