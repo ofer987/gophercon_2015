@@ -1,4 +1,4 @@
-package tests
+package testing
 
 import (
 	// "fmt"
@@ -7,5 +7,5 @@ import (
 )
 
 func TestTruth(t *testing.T) {
-	assert.Equal(t, true, true, "True should be true!")
+	assert.Equal(t, true, false, "True should be true!")
 }
