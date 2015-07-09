@@ -1,6 +1,6 @@
-# Preventing Deadlocks and Leaks in Go
+# [Preventing Deadlocks and Leaks in Go](http://www.gophercon.com/talks/deadlocks-leaks)
 
-By Richard Fliam
+By [Richard Fliam](https://github.com/rfliam), Software Engineer at [Comcast](http://www.xfinity.com/)
 
 - Use CSP (Communicating Sequential Processors)
   - By C.A.R. Hoare, the designer of CSP

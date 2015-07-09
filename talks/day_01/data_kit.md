@@ -1,5 +1,7 @@
 # [Go kit](http://peter.bourgon.org/go-kit/)
 
+By [Peter Bourgon](https://github.com/peterbourgon), Engineer at Weaveworks
+
 - Higher order abstractions
 - For the application layer
   - Microservices

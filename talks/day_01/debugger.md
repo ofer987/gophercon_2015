@@ -1,6 +1,8 @@
 # [Debugger](https://github.com/derekparker/delve)
 
-[Delve](https://github.com/derekparker/delve) by [Derek Parker](http://derkthedaring.com/)
+By [Derek Parker](http://derkthedaring.com/), Engineer at [Hashrocket](http://hashrocket.com/)
+
+## [Delve](https://github.com/derekparker/delve) 
 
 - `dlv run`
   - compiles code with optimizations disabled
@@ -30,9 +32,3 @@
 - `info func /regex/`
 
 - Insert breakpoint using `runtime.Breakpoint` within source code
-
-#### Defer Statement
-
-#### Threads vs Goroutines
-
-#### Go Scheduler

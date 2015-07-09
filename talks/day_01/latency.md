@@ -1,6 +1,6 @@
-# Solving the Go Latency Problem
+# [Solving the Go Latency Problem](http://www.gophercon.com/talks/garbage-collection/)
 
-By Rick Hudson, Google
+By [Richard Hudson](https://www.linkedin.com/pub/richard-hudson/85/391/333), [Google](https://www.google.com)
 
 - Go GC
   - Will be released in 1.5
