@@ -14,6 +14,17 @@ By
   - XML
   - BSON
   - SQL ORMS
+- [MustHaveTag](https://github.com/evergreen-ci/tags)
+- [A More Unusual Mapping Case](https://github.com/mitchellh/mapstructure)
+- [Command-line Configuration](https://github.com/jessevdk/go-flags)
+- [Default Values](https://github.com/mcuadros/go-defaults)
+  - Simplify initializers
+  - Initializations logic live inside type definitions
+- [Validation](https://github.com/asaskevich/govalidator)
+  - Specify validators to be applied to a field
+  - Validation specified declaratively
+- Do not do
+  - `interface{}` with type bounds
 
 #### Namespacing
 
