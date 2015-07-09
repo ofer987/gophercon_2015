@@ -2,10 +2,11 @@
 
 By [Blake Caldwell](https://github.com/wblakecaldwell), Developer at [Fog Creek Software](https://www.fogcreek.com/) | Kentik
 
-- Cut something by half!
+- Redeveloped a Python program in Go
+  - Cut some performance metric by half!
   - Wow
 
-#### Channel Axioms
+#### [Channel Axioms](http://dave.cheney.net/2014/03/19/channel-axioms)
 
 1. A send to a nil channel blocks forever
 2. A receiver from a nil channel blocks forever
@@ -29,3 +30,15 @@ By [Blake Caldwell](https://github.com/wblakecaldwell), Developer at [Fog Creek 
   2. Run
   3. Build
   4. Install
+
+#### Profilers
+
+- [Profiler](https://github.com/fogcreek/profiler)
+- [PProf](https://golang.org/pkg/runtime/pprof/)
+  - `go tool pprof`
+
+#### Drain and Die
+
+- Stop listening to new requests
+- Exit program once all requests are serviced
+- Use timeouts to terminate stale requests
